@@ -1,0 +1,6 @@
+bin/
+obj/
+wwwroot/lib/
+store.db
+store.db-shm
+store.db-wal
