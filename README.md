@@ -77,11 +77,12 @@ store.db (created locally)
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Home Page](wwwroot/img/home.png)
+![Home Page](wwwroot/img/homepage.png)
 
 ### 📄 Product Detail Page
-![Product Details](wwwroot/img/product.png)
+![Product Detail](wwwroot/img/product-detail.png)
 
 ### 📋 Product List Page
-![Product List](wwwroot/img/product-details.png)
+![Product List](wwwroot/img/product-list.png)
+
 
