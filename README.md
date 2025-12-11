@@ -18,19 +18,14 @@ It includes product listing, product detail pages with image galleries, categori
 
 ---
 
-✨ Features
+### ✨ Features
+- 🛒 Product listing page  
+- 🔍 Product detail page with gallery  
+- 📂 Category menu  
+- 🎞️ Home slider component  
+- 🎯 Similar products section  
+- 🗄️ SQLite database with Entity Framework Core  
 
-📄 Product listing page
-
-🖼️ Product detail page with image gallery
-
-🧭 Category menu
-
-🎞️ Homepage slider (ViewComponent)
-
-🔁 Similar products section
-
-💾 SQLite database with Entity Framework Core
 
 ---
 
