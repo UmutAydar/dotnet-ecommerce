@@ -1,17 +1,20 @@
 🛍️ ASP.NET Core E-Commerce Project
 
-This is a simple e-commerce web application built with ASP.NET Core MVC and Entity Framework Core.
-It includes product listing, product details with gallery, categories, slider component, and a basic e-commerce layout.
+This is a simple e-commerce web application built with **ASP.NET Core MVC**, **Entity Framework Core**, and **SQLite**.  
+It includes product listing, product detail pages with image galleries, categories, sliders, and a basic e-commerce layout.
+
+---
 
 ## 🛠️ Technologies Used
-
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Entity Framework Core](https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=.net&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&logo=.net&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
 ---
 
@@ -31,36 +34,36 @@ It includes product listing, product details with gallery, categories, slider co
 
 ---
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-Follow the steps below to run the project on your local machine.
-
-
-1️⃣ Install dependencies
-
+```
+1️⃣ Install Dependencies
+--------------------------------
 dotnet restore
 
-This command installs all required NuGet packages for the project.
 
-2️⃣ Create / update the database
 
+2️⃣ Create or Update the Database
+--------------------------------
 dotnet ef database update
+# This creates the SQLite database (store.db) on your machine
+# The database file is ignored via .gitignore
+# Each developer must generate their own database locally
 
-This will create the SQLite database file (store.db) on your machine and apply all migrations automatically.
 
-⚠️ Note:
-The database file is not included in the repository because it is ignored via .gitignore.
-Every developer must create their own local database using the command above.
 
-3️⃣ Run the application
-
+3️⃣ Run the Application
+--------------------------------
 dotnet run
+# Then open the URL shown in terminal (example):
+# https://localhost:xxxx
+```
 
-Then open the URL shown in the terminal (usually something like):
+---
 
-https://localhost:xxxx
+## 📁 Project Structure (Short Overview)
 
-📂 Project Structure (Short Overview)
+```
 /Controllers
 /Models
 /Views
@@ -68,7 +71,17 @@ https://localhost:xxxx
 /Migrations
 /wwwroot
 appsettings.json
-store.db   (created locally)
+store.db (created locally)
+```
 
----
+## 🖼️ Screenshots
+
+### 🏠 Homepage
+<img src="screenshots/homepage.png" width="900"/>
+
+### 📄 Product Detail Page
+<img src="screenshots/product-detail.png" width="900"/>
+
+### 📋 Product List Page
+<img src="screenshots/product-list.png" width="900"/>
 
