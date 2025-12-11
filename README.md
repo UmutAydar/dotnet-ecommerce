@@ -29,6 +29,8 @@ It includes product listing, product details with gallery, categories, slider co
 
 💾 SQLite database with Entity Framework Core
 
+---
+
 ⚙️ Installation & Setup
 
 Follow the steps below to run the project on your local machine.
@@ -70,6 +72,3 @@ store.db   (created locally)
 
 ---
 
-📄 License
-
-This project is free to use and modify for learning purposes.,/
